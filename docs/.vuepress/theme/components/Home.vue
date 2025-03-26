@@ -157,15 +157,17 @@ const frontmatter = usePageFrontmatter()
   padding-bottom: 0;
   color: var(--c-text);
   margin-bottom: 1rem;
-  white-space: pre-line !important;
+  white-space: pre-wrap !important;
+  display: block;
 }
 
 .feature p {
   color: var(--c-text);
   line-height: 1.6;
   flex-grow: 1;
-  white-space: pre-line !important;
+  white-space: pre-wrap !important;
   margin: 0;
+  display: block;
 }
 
 .footer {

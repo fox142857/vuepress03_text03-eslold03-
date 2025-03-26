@@ -9,14 +9,14 @@ footer: MIT Licensed | Copyright © 2024-present Gardenia
 
 <div class="features">
   <div class="feature" onclick="window.location.href='/getting-started/OBM.html'">
-    <img src="/ico/obm-logo.svg" alt="OBM Logo" class="feature-logo">
+    <img src="/ico/obm-logo.svg" alt="OBM 图标" class="feature-logo">
     <h2>OBM</h2>
-    <p>OutBound Management<br>出库管理系统</p>
+    <p>出库管理系统<br>ESL 信息录入系统</p>
   </div>
   <div class="feature" onclick="window.location.href='/getting-started/MDE.html'">
-    <img src="/ico/mde-logo.svg" alt="MDE Logo" class="feature-logo">
+    <img src="/ico/mde-logo.svg" alt="MDE 图标" class="feature-logo">
     <h2>MDE</h2>
-    <p>MySQL Data Exporter<br>数据导出程序</p>
+    <p>MySQL 数据导出器<br>数据导出程序</p>
   </div>
 </div>
 

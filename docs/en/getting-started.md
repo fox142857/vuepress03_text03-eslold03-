@@ -2,7 +2,7 @@
 sidebar: false
 ---
 
-# Getting Started
+# Get Started
 
 Please select a project to learn more:
 

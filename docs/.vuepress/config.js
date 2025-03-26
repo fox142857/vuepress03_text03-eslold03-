@@ -100,7 +100,7 @@ export default defineUserConfig({
                 // navbar
                 navbar: [
                     {
-                        text: 'Getting Started',
+                        text: 'Get Started',
                         link: '/en/getting-started.html',
                     },
                     {
