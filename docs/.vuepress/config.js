@@ -5,11 +5,18 @@ import { defineUserConfig } from 'vuepress'
 import navbar from "./navbar";
 
 export default defineUserConfig({
-    lang: 'zh-CN',
-
-    title: 'Gardenia',
-
-    description: 'The application documentation website of gardenia.',
+    locales: {
+        '/': {
+            lang: 'zh-CN',
+            title: 'Gardenia',
+            description: '应用程序文档网站',
+        },
+        '/en/': {
+            lang: 'en-US',
+            title: 'Gardenia',
+            description: 'The application documentation website of gardenia.',
+        },
+    },
 
     head: [
         // 站点图标
@@ -58,25 +65,59 @@ export default defineUserConfig({
 
     theme: defaultTheme({
         logo: '/ico/main-logo.svg',
-        
-        navbar: [
-            {
-                text: '快速上手',
-                link: '/getting-started.html',
-            },
-            {
-                text: '项目简介',
-                children: [
+        locales: {
+            '/': {
+                selectLanguageName: '简体中文',
+                selectLanguageText: '选择语言',
+                selectLanguageAriaLabel: '选择语言',
+                
+                // 导航栏
+                navbar: [
                     {
-                        text: 'OBM',
-                        link: '/introduction/OBM.html',
+                        text: '快速上手',
+                        link: '/getting-started.html',
                     },
                     {
-                        text: 'MDE',
-                        link: '/introduction/MDE.html',
+                        text: '项目简介',
+                        children: [
+                            {
+                                text: 'OBM',
+                                link: '/introduction/OBM.html',
+                            },
+                            {
+                                text: 'MDE',
+                                link: '/introduction/MDE.html',
+                            },
+                        ],
                     },
                 ],
             },
-        ],
+            '/en/': {
+                selectLanguageName: 'English',
+                selectLanguageText: 'Languages',
+                selectLanguageAriaLabel: 'Select language',
+                
+                // navbar
+                navbar: [
+                    {
+                        text: 'Getting Started',
+                        link: '/en/getting-started.html',
+                    },
+                    {
+                        text: 'Introduction',
+                        children: [
+                            {
+                                text: 'OBM',
+                                link: '/en/introduction/OBM.html',
+                            },
+                            {
+                                text: 'MDE',
+                                link: '/en/introduction/MDE.html',
+                            },
+                        ],
+                    },
+                ],
+            },
+        },
     }),
 })

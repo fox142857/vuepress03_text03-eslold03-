@@ -47,7 +47,7 @@ const frontmatter = usePageFrontmatter()
 }
 
 .background-container {
-  position: absolute;
+  position: fixed;
   top: var(--navbar-height);
   left: 0;
   right: 0;
@@ -60,6 +60,7 @@ const frontmatter = usePageFrontmatter()
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center;
   opacity: 0.15;
 }
 
@@ -156,14 +157,14 @@ const frontmatter = usePageFrontmatter()
   padding-bottom: 0;
   color: var(--c-text);
   margin-bottom: 1rem;
-  white-space: pre-line;
+  white-space: pre-line !important;
 }
 
 .feature p {
   color: var(--c-text);
   line-height: 1.6;
   flex-grow: 1;
-  white-space: pre-line;
+  white-space: pre-line !important;
   margin: 0;
 }
 
