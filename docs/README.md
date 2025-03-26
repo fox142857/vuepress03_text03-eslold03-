@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /images/no-using/home.jpg
+heroImage: /images/home.png
 heroText: 我的项目文档
 tagline: 基于 VuePress 的项目文档网站
 actions:

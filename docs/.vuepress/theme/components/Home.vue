@@ -148,9 +148,9 @@ const frontmatter = usePageFrontmatter()
   }
 }
 
-@media (max-width: 419px) {
+@media (max-width: 520px) {
   .hero-image {
-    max-height: 210px;
+    max-height: 350px;
     margin: 2rem auto 1.2rem;
   }
 
