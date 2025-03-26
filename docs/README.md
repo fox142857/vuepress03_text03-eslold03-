@@ -1,27 +1,27 @@
 ---
 home: true
 heroImage: /images/home.png
-heroText: 我的项目文档
-tagline: 基于 VuePress 的项目文档网站
+heroText: 项目展示
+tagline: 基于 Java 和 Python 的桌面应用程序
 actions:
   - text: 快速上手
-    link: /guide/getting-started.html
+    link: /getting-started.html
     type: primary
   - text: 项目简介
-    link: /guide/introduction.html
+    link: /introduction.html
     type: secondary
 features:
-  - title: 简洁至上
-    details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。
-  - title: Vue 驱动
-    details: 享受 Vue 的开发体验，可以在 Markdown 中使用 Vue 组件，又可以使用 Vue 来开发自定义主题。
-  - title: 高性能
-    details: VuePress 会为每个页面预渲染生成静态的 HTML，同时，每个页面被加载的时候，将作为 SPA 运行。
-  - title: 主题
-    details: 提供了一个开箱即用的默认主题。你也可以挑选一个社区主题，或者创建一个你自己的主题。
-  - title: 插件
-    details: 灵活的插件API，使得插件可以为你的站点提供许多即插即用的功能。
-  - title: 打包工具
-    details: 推荐的打包工具是 Vite ，但也同样支持使用 Webpack 。选一个你喜欢的来使用吧！
-footer: MIT Licensed | Copyright © 2018-present Gardenia
+  - title: OBM - OutBound Management
+    details: 基于 Java + JavaFX + MyBatis + MySQL 开发的桌面应用，支持扫码枪 ESL 信息录入，提高工作效率。
+  - title: MDE - MySQL Data Exporter
+    details: 基于 Python + MySQL 开发的数据导出工具，支持灵活配置数据库连接，导出数据为 TXT 或 XLSX 格式。
+  - title: 高效开发
+    details: 使用现代化的开发框架和工具，确保程序的性能和可靠性。
+  - title: 用户友好
+    details: 简洁直观的界面设计，操作简单，适合各类用户使用。
+  - title: 打包部署
+    details: OBM 使用 Maven + JLink + Launch4j + InnoSetup 打包，MDE 使用 PyInstaller 打包，方便分发安装。
+  - title: 数据安全
+    details: 采用安全的数据库连接和操作方式，确保数据的安全性和完整性。
+footer: MIT Licensed | Copyright © 2024-present Gardenia
 ---
