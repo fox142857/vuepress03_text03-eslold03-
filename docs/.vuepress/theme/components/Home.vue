@@ -48,10 +48,10 @@ const frontmatter = usePageFrontmatter()
 
 .background-container {
   position: absolute;
-  top: 0;
+  top: var(--navbar-height);
   left: 0;
   right: 0;
-  height: 100vh;
+  bottom: 0;
   overflow: hidden;
   z-index: -1;
 }
@@ -60,7 +60,7 @@ const frontmatter = usePageFrontmatter()
   width: 100%;
   height: 100%;
   object-fit: cover;
-  opacity: 0.1;
+  opacity: 0.15;
 }
 
 .hero {
@@ -125,27 +125,28 @@ const frontmatter = usePageFrontmatter()
   padding: 2.5rem 2rem;
   margin: 2.5rem auto;
   max-width: var(--homepage-width);
-  display: flex;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  align-content: stretch;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
   background-color: var(--c-bg);
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 .feature {
-  flex-grow: 1;
-  flex-basis: 30%;
-  max-width: 30%;
   text-align: center;
   padding: 1.5rem;
   transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  border: 1px solid var(--c-border);
+  border-radius: 8px;
 }
 
 .feature:hover {
   transform: translateY(-5px);
+  border-color: var(--c-brand);
 }
 
 .feature h2 {
@@ -155,11 +156,15 @@ const frontmatter = usePageFrontmatter()
   padding-bottom: 0;
   color: var(--c-text);
   margin-bottom: 1rem;
+  white-space: pre-line;
 }
 
 .feature p {
   color: var(--c-text);
   line-height: 1.6;
+  flex-grow: 1;
+  white-space: pre-line;
+  margin: 0;
 }
 
 .footer {
@@ -172,14 +177,8 @@ const frontmatter = usePageFrontmatter()
 
 @media (max-width: 719px) {
   .features {
-    flex-direction: column;
+    grid-template-columns: 1fr;
     padding: 1.5rem;
-  }
-
-  .feature {
-    max-width: 100%;
-    padding: 1rem;
-    margin-bottom: 1.5rem;
   }
 }
 

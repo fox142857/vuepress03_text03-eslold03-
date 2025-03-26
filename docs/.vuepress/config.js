@@ -13,7 +13,7 @@ export default defineUserConfig({
 
     head: [
         // 站点图标
-        ["link", { rel: "icon", href: "/ico/logo.svg" }],
+        ["link", { rel: "icon", href: "/ico/main-logo.svg" }],
 
         // SEO
         [
@@ -57,8 +57,26 @@ export default defineUserConfig({
     bundler: viteBundler(),
 
     theme: defaultTheme({
-        logo: '/ico/logo.svg',
+        logo: '/ico/main-logo.svg',
         
-        navbar,
+        navbar: [
+            {
+                text: '快速上手',
+                link: '/getting-started.html',
+            },
+            {
+                text: '项目简介',
+                children: [
+                    {
+                        text: 'OBM',
+                        link: '/introduction/OBM.html',
+                    },
+                    {
+                        text: 'MDE',
+                        link: '/introduction/MDE.html',
+                    },
+                ],
+            },
+        ],
     }),
 })
