@@ -1,8 +1,8 @@
 ---
 home: true
 heroImage: /images/home.png
-heroText: 项目展示
-tagline: 基于 Java 和 Python 的桌面应用程序
+heroText: Project Exhibition
+tagline: The application documentation website of Gardenia.
 actions:
   - text: 快速上手
     link: /getting-started.html

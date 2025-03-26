@@ -1,5 +1,6 @@
 ---
 sidebar: false
+footer: MIT Licensed | Copyright © 2024-present Gardenia
 ---
 
 # 快速上手
@@ -8,14 +9,14 @@ sidebar: false
 
 <div class="features">
   <div class="feature" onclick="window.location.href='/getting-started/OBM.html'">
-    <img src="/ico/obm-logo.png" alt="OBM Logo" class="feature-logo">
+    <img src="/ico/obm-logo.svg" alt="OBM Logo" class="feature-logo">
     <h2>OBM</h2>
-    <p>OutBound Management<br>ESL 信息录入管理系统</p>
+    <p>OutBound Management<br>出库管理系统</p>
   </div>
   <div class="feature" onclick="window.location.href='/getting-started/MDE.html'">
-    <img src="/ico/mde-logo.png" alt="MDE Logo" class="feature-logo">
+    <img src="/ico/mde-logo.svg" alt="MDE Logo" class="feature-logo">
     <h2>MDE</h2>
-    <p>MySQL Data Exporter<br>MySQL 数据导出工具</p>
+    <p>MySQL Data Exporter<br>数据导出程序</p>
   </div>
 </div>
 

@@ -1,17 +1,21 @@
+---
+footer: MIT Licensed | Copyright © 2024-present Gardenia
+---
+
 # 项目简介
 
 请选择要了解的项目：
 
 <div class="features">
   <div class="feature" onclick="window.location.href='/introduction/OBM.html'">
-    <img src="/ico/obm-logo.png" alt="OBM Logo" class="feature-logo">
+    <img src="/ico/obm-logo.svg" alt="OBM Logo" class="feature-logo">
     <div class="feature-content">
       <h2>OBM</h2>
       <p>基于 Java + JavaFX + MyBatis + MySQL 开发的桌面应用，用于 ESL 信息录入管理。提供高效的数据采集和管理功能，支持多种扫码枪设备。</p>
     </div>
   </div>
   <div class="feature" onclick="window.location.href='/introduction/MDE.html'">
-    <img src="/ico/mde-logo.png" alt="MDE Logo" class="feature-logo">
+    <img src="/ico/mde-logo.svg" alt="MDE Logo" class="feature-logo">
     <div class="feature-content">
       <h2>MDE</h2>
       <p>基于 Python + MySQL 开发的数据导出工具，支持多种导出格式。提供灵活的配置选项和友好的用户界面，让数据导出变得简单高效。</p>
