@@ -13,7 +13,7 @@ export default defineUserConfig({
 
     head: [
         // 站点图标
-        ["link", { rel: "icon", href: "/logo.ico" }],
+        ["link", { rel: "icon", href: "/ico/logo.svg" }],
 
         // SEO
         [
@@ -57,7 +57,7 @@ export default defineUserConfig({
     bundler: viteBundler(),
 
     theme: defaultTheme({
-        logo: '/logo.png',
+        logo: '/ico/logo.svg',
         
         navbar,
     }),
