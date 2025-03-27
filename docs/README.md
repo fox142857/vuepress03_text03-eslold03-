@@ -12,16 +12,10 @@ actions:
     type: secondary
 features:
   - title: "OBM"
-    details: ""
+    details: "用于电子价签出库的信息登记。"
   - title: "MDE"
-    details: ""
+    details: "用于导出MySQL数据库的数据。"
   - title: "Tetris"
-    details: ""
-  - title: ""
-    details: ""
-  - title: ""
-    details: ""
-  - title: ""
-    details: ""
+    details: "用于闲时放松，增加生活乐趣。"
 footer: MIT Licensed | Copyright © 2024-present Gardenia
 ---

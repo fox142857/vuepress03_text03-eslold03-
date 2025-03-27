@@ -12,16 +12,10 @@ actions:
     type: secondary
 features:
   - title: "OBM"
-    details: ""
+    details: "Information registration for ESL outbound."
   - title: "MDE"
-    details: ""
+    details: "Used for exporting data from MySQL databases."
   - title: "Tetris"
-    details: ""
-  - title: ""
-    details: ""
-  - title: ""
-    details: ""
-  - title: ""
-    details: ""
+    details: "For leisure time relaxation and enhancing life enjoyment."
 footer: MIT Licensed | Copyright © 2024-present Gardenia
 ---
