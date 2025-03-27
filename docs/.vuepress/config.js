@@ -65,6 +65,12 @@ export default defineUserConfig({
 
     theme: defaultTheme({
         logo: '/ico/main-logo.svg',
+        editLink: false,
+        editLinkText: '前往下载',
+        docsRepo: 'https://github.com/fox142857/vuepress03_text03-eslold03-',
+        docsBranch: 'main',
+        docsDir: 'docs',
+        editLinkPattern: '/download.html',
         locales: {
             '/': {
                 selectLanguageName: '简体中文',
@@ -90,7 +96,12 @@ export default defineUserConfig({
                             },
                         ],
                     },
+                    {
+                        text: '下载',
+                        link: '/download.html',
+                    },
                 ],
+                editLinkText: '前往下载',
             },
             '/en/': {
                 selectLanguageName: 'English',
@@ -116,7 +127,12 @@ export default defineUserConfig({
                             },
                         ],
                     },
+                    {
+                        text: 'Download',
+                        link: '/en/download.html',
+                    },
                 ],
+                editLinkText: 'Go to Download',
             },
         },
         repo: "https://github.com/fox142857",

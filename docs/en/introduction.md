@@ -9,17 +9,13 @@ Please select a project to learn more:
 <div class="features">
   <div class="feature" onclick="window.location.href='/en/introduction/OBM.html'">
     <img src="/ico/obm-logo.svg" alt="OBM Logo" class="feature-logo">
-    <div class="feature-content">
-      <h2>OBM</h2>
-      <p>Desktop application based on Java + JavaFX + MyBatis + MySQL, used for ESL information entry management. Provides efficient data collection and management functions, supports various barcode scanner devices.</p>
-    </div>
+    <h2>OBM</h2>
+    <p>OutBound Management<br>ESL Information Entry System</p>
   </div>
   <div class="feature" onclick="window.location.href='/en/introduction/MDE.html'">
     <img src="/ico/mde-logo.svg" alt="MDE Logo" class="feature-logo">
-    <div class="feature-content">
-      <h2>MDE</h2>
-      <p>Data export tool based on Python + MySQL, supports multiple export formats. Provides flexible configuration options and a user-friendly interface, making data export simple and efficient.</p>
-    </div>
+    <h2>MDE</h2>
+    <p>MySQL Data Exporter<br>ESL Data Export Program</p>
   </div>
 </div>
 
@@ -28,14 +24,16 @@ Please select a project to learn more:
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
-  max-width: 1200px;
+  max-width: 800px;
   margin: 2rem auto;
   padding: 0 1rem;
 }
 
 .feature {
   display: flex;
-  align-items: flex-start;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
   padding: 2rem;
   border: 1px solid var(--c-border);
   border-radius: 8px;
@@ -51,14 +49,9 @@ Please select a project to learn more:
 }
 
 .feature-logo {
-  width: 100px;
-  height: 100px;
-  margin-right: 2rem;
-  flex-shrink: 0;
-}
-
-.feature-content {
-  flex-grow: 1;
+  width: 80px;
+  height: 80px;
+  margin-bottom: 1rem;
 }
 
 .feature h2 {
@@ -67,7 +60,7 @@ Please select a project to learn more:
   border-bottom: none;
   padding-bottom: 0;
   color: var(--c-brand);
-  margin: 0 0 1rem 0;
+  margin: 0.5rem 0;
 }
 
 .feature p {
@@ -76,21 +69,9 @@ Please select a project to learn more:
   margin: 0;
 }
 
-@media (max-width: 919px) {
+@media (max-width: 719px) {
   .features {
     grid-template-columns: 1fr;
-  }
-}
-
-@media (max-width: 419px) {
-  .feature {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-  
-  .feature-logo {
-    margin: 0 0 1.5rem 0;
   }
 }
 </style> 
