@@ -4,7 +4,7 @@ sidebar: false
 
 # Download
 
-Please select a project to download:
+Click the card to download the installer:
 
 <div class="downloads">
   <div class="row">

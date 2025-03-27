@@ -4,7 +4,7 @@ sidebar: false
 
 # 下载
 
-请选择要下载的项目：
+点击卡片下载安装程序：
 
 <div class="downloads">
   <div class="row">

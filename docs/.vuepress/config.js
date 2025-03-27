@@ -85,19 +85,10 @@ export default defineUserConfig({
                     },
                     {
                         text: '项目简介',
-                        children: [
-                            {
-                                text: 'OBM',
-                                link: '/introduction/OBM.html',
-                            },
-                            {
-                                text: 'MDE',
-                                link: '/introduction/MDE.html',
-                            },
-                        ],
+                        link: '/introduction.html',
                     },
                     {
-                        text: '下载',
+                        text: '前往下载',
                         link: '/download.html',
                     },
                 ],
@@ -116,16 +107,7 @@ export default defineUserConfig({
                     },
                     {
                         text: 'Introduction',
-                        children: [
-                            {
-                                text: 'OBM',
-                                link: '/en/introduction/OBM.html',
-                            },
-                            {
-                                text: 'MDE',
-                                link: '/en/introduction/MDE.html',
-                            },
-                        ],
+                        link: '/en/introduction.html',
                     },
                     {
                         text: 'Download',
