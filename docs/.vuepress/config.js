@@ -65,7 +65,7 @@ export default defineUserConfig({
 
     theme: defaultTheme({
         logo: '/ico/main-logo.svg',
-        editLink: false,
+        // editLink: false,
         editLinkText: '前往下载',
         docsRepo: 'https://github.com/fox142857/vuepress03_text03-eslold03-',
         docsBranch: 'main',
