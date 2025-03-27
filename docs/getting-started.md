@@ -1,6 +1,5 @@
 ---
 sidebar: false
-footer: MIT Licensed | Copyright © 2024-present Gardenia
 ---
 
 # 快速上手
@@ -11,12 +10,12 @@ footer: MIT Licensed | Copyright © 2024-present Gardenia
   <div class="feature" onclick="window.location.href='/getting-started/OBM.html'">
     <img src="/ico/obm-logo.svg" alt="OBM 图标" class="feature-logo">
     <h2>OBM</h2>
-    <p>出库管理系统<br>ESL 信息录入系统</p>
+    <p>出库管理系统<br>ESL 信息录入</p>
   </div>
   <div class="feature" onclick="window.location.href='/getting-started/MDE.html'">
     <img src="/ico/mde-logo.svg" alt="MDE 图标" class="feature-logo">
     <h2>MDE</h2>
-    <p>MySQL 数据导出器<br>数据导出程序</p>
+    <p>数据导出程序<br>ESL 数据导出</p>
   </div>
 </div>
 

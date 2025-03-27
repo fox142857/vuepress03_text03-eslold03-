@@ -1,5 +1,5 @@
 ---
-footer: MIT Licensed | Copyright © 2024-present Gardenia
+sidebar: false
 ---
 
 # 项目简介

@@ -1,3 +1,7 @@
+---
+sidebar: false
+---
+
 # Introduction
 
 Please select a project to learn more:

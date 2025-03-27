@@ -15,7 +15,7 @@ Please select a project to learn more:
   <div class="feature" onclick="window.location.href='/en/getting-started/MDE.html'">
     <img src="/ico/mde-logo.svg" alt="MDE Logo" class="feature-logo">
     <h2>MDE</h2>
-    <p>MySQL Data Exporter<br>Data Export Program</p>
+    <p>MySQL Data Exporter<br>ESL Data Export Program</p>
   </div>
 </div>
 

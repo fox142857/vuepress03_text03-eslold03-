@@ -14,7 +14,7 @@ export default defineUserConfig({
         '/en/': {
             lang: 'en-US',
             title: 'Gardenia',
-            description: 'The application documentation website of gardenia.',
+            description: 'The application documentation website of Gardenia.',
         },
     },
 
@@ -119,5 +119,6 @@ export default defineUserConfig({
                 ],
             },
         },
+        repo: "https://github.com/fox142857",
     }),
 })
