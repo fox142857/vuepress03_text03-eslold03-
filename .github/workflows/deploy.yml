@@ -29,7 +29,8 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: npm
+          # 移除cache配置，因为没有提交锁定文件
+          # cache: npm
 
       - name: Install Dependencies
         run: npm install
