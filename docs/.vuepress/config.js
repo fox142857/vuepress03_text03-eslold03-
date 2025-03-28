@@ -3,6 +3,8 @@ import { defaultTheme } from '@vuepress/theme-default'
 import { defineUserConfig } from 'vuepress'
 
 export default defineUserConfig({
+    base : "/vuepress03_text03-eslold03-/",
+
     locales: {
         '/': {
             lang: 'zh-CN',
