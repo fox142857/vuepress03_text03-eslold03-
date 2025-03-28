@@ -20,7 +20,7 @@ export default defineUserConfig({
 
     head: [
         // 站点图标
-        ["link", { rel: "icon", href: "/ico/main-logo.svg" }],
+        ["link", { rel: "icon", href: "/vuepress03_text03-eslold03-/ico/main-logo.svg" }],
 
         // SEO
         [
